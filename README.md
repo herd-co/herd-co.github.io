@@ -12,20 +12,22 @@ employer website on Handshake.
 | `style.css` | All styling, light and dark theme |
 | `favicon.svg` | Browser tab icon |
 
-## Before you publish: fill in the brackets
+## Logo and colors
 
-Search both HTML files for `[` and replace every bracketed placeholder:
+`logo.png` / `logo-dark.png` are cleaned-up versions of the original Herd Co logo scan (flat colors, transparent
+background). The `-800` files are smaller copies used in the page header. The site palette in `style.css` comes
+from the logo: near-black brown `#221E19`, tan `#B29E88`, warm grey `#C0B5A5`, white.
 
-- Street address, phone, and careers email (footer of both pages, and the "How to apply" section)
-- Head capacity, year established, and employee count (the facts strip on the home page)
-- Pay ranges on each job listing
-- Hiring manager name in "Stop by"
-- Replace `https://joinhandshake.com` with your actual Handshake employer profile URL once you have it
+## Applications go through Handshake only
+
+Every Apply button and recruiting link points at Handshake. Replace `https://joinhandshake.com` in both HTML
+files with the actual Handshake posting or employer-profile URL. Do not add email or phone application options.
 
 ## Editing job listings
 
 Open `careers.html` and find the `<div class="jobs">` block. Each `<article class="job">` is one posting.
-Copy a block to add a job, delete a block to remove one, and update the `data-updated` date.
+Copy a block to add a job, delete a block to remove one, and update the `data-updated` date. The current
+listing is the Accountant / Controller position from "Herd Co Controller Position Job Posting.pdf".
 
 ## Publishing on GitHub Pages
 

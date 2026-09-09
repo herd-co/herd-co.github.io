@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Herd Co. | Cattle Feeding in Bartlett, Nebraska</title>
-  <meta name="description" content="Herd Co. is a commercial cattle feedyard in Bartlett, Nebraska. Learn about Herd Co. and careers in cattle feeding, feed milling, animal health, and agribusiness.">
+  <meta name="description" content="Herd Co. is a 90,000-head commercial cattle feedyard in Bartlett, Nebraska. Learn about Herd Co. and careers in cattle feeding and agribusiness.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,800&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
@@ -16,12 +16,10 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html" aria-label="Herd Co. home">
-      <svg viewBox="0 0 40 40" aria-hidden="true">
-        <rect x="2" y="2" width="36" height="36" rx="4" fill="none" stroke="currentColor" stroke-width="2.2"/>
-        <path d="M11 27V13M11 20h9M20 27V13" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"/>
-        <circle cx="29" cy="20" r="4.5" fill="none" stroke="currentColor" stroke-width="2.6"/>
-      </svg>
-      <span><span class="name">Herd Co.</span><span class="place">Bartlett, Nebraska</span></span>
+      <picture>
+        <source srcset="logo-dark-800.png" media="(prefers-color-scheme: dark)">
+        <img src="logo-800.png" alt="Herd Co." width="800" height="343">
+      </picture>
     </a>
     <nav aria-label="Main">
       <ul>
@@ -39,36 +37,16 @@
       <div>
         <span class="eyebrow">Commercial cattle feedyard &middot; Wheeler County, NE</span>
         <h1>Feeding cattle in the heart of the Sandhills.</h1>
-        <p class="lede">Herd Co. is a family-scale commercial feedyard in Bartlett, Nebraska. We finish cattle for customers across the region and market fed cattle to packers including JBS in Grand Island.</p>
+        <p class="lede">Herd Co. is a 90,000-head commercial feedyard in Bartlett, Nebraska. We finish cattle for customers across the region, market fed cattle to packers including JBS in Grand Island, and run a professional office that supports the yard and several affiliated agricultural entities, including a certified organic grain farm.</p>
         <div class="actions">
           <a class="btn" href="careers.html">See open positions</a>
         </div>
       </div>
       <figure style="margin:0">
-        <svg class="map" viewBox="0 0 420 260" role="img" aria-label="Map of Nebraska showing Bartlett in Wheeler County, on the eastern edge of the Sandhills">
-          <!-- Nebraska outline (simplified) -->
-          <path class="state" d="M18 42 L18 150 L142 150 L142 215 L370 215 L400 208 L392 190 L398 165 L385 140 L372 120 L372 98 L350 80 L318 78 L290 72 L262 60 L230 54 L200 50 L160 48 L120 44 Z"/>
-          <!-- Sandhills region (approximate) -->
-          <path class="sandhills" d="M70 62 C120 58 170 66 205 80 C240 92 268 100 292 106 C296 122 288 140 270 148 C230 156 190 156 150 148 L142 150 L60 146 C50 120 52 90 70 62 Z"/>
-          <!-- Platte River (approximate) -->
-          <path class="river" d="M20 120 C60 128 100 134 140 162 C180 190 230 196 280 198 C330 200 365 198 398 190"/>
-          <!-- Loup River (approximate) -->
-          <path class="river" d="M150 110 C200 120 240 140 275 165 C300 180 330 188 355 192"/>
-          <!-- Cities -->
-          <circle cx="298" cy="178" r="3" fill="var(--ink-2)"/>
-          <text x="292" y="182" text-anchor="end">Grand Island</text>
-          <circle cx="362" cy="184" r="3" fill="var(--ink-2)"/>
-          <text x="342" y="205" class="faint">Lincoln</text>
-          <circle cx="390" cy="172" r="3" fill="var(--ink-2)"/>
-          <text x="352" y="167" class="faint">Omaha</text>
-          <!-- Bartlett -->
-          <circle class="pin-ring" cx="292" cy="112" r="14"/>
-          <circle class="pin" cx="292" cy="112" r="5"/>
-          <text x="306" y="105" class="city">Bartlett</text>
-          <text x="306" y="119">Wheeler County</text>
-          <text x="100" y="105" class="faint">SANDHILLS</text>
-          <text x="20" y="245" class="faint">Nebraska &middot; Herd Co. is about 90 minutes north of Grand Island.</text>
-        </svg>
+        <picture>
+          <source srcset="logo-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="hero-logo" src="logo.png" alt="Herd Co. logo: the herd co wordmark with two cattle heads" width="1443" height="620">
+        </picture>
       </figure>
     </div>
     <div class="wrap">
@@ -76,11 +54,40 @@
         <div class="fact"><div class="num">90,000</div><div class="lbl">head one-time capacity</div></div>
         <div class="fact"><div class="num">Bartlett</div><div class="lbl">Wheeler County, Nebraska</div></div>
         <div class="fact"><div class="num">JBS</div><div class="lbl">fed cattle marketed to Grand Island</div></div>
-        <div class="fact"><div class="num">Year-round</div><div class="lbl">hiring, plus summer internships</div></div>
+        <div class="fact"><div class="num">Handshake</div><div class="lbl">where every opening is posted</div></div>
       </div>
     </div>
   </div>
 
+  <section id="where">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Where we are</span>
+          <h2>Bartlett, Nebraska.</h2>
+        </div>
+        <p>The yard sits in Wheeler County on the eastern edge of the Sandhills, about 90 minutes north of Grand Island. The office is commutable from Albion, Spalding, O'Neill, Ord, and Burwell.</p>
+      </div>
+      <svg class="map" viewBox="0 0 420 260" role="img" aria-label="Map of Nebraska showing Bartlett in Wheeler County, on the eastern edge of the Sandhills" style="max-width:640px">
+        <path class="state" d="M18 42 L18 150 L142 150 L142 215 L370 215 L400 208 L392 190 L398 165 L385 140 L372 120 L372 98 L350 80 L318 78 L290 72 L262 60 L230 54 L200 50 L160 48 L120 44 Z"/>
+        <path class="sandhills" d="M70 62 C120 58 170 66 205 80 C240 92 268 100 292 106 C296 122 288 140 270 148 C230 156 190 156 150 148 L142 150 L60 146 C50 120 52 90 70 62 Z"/>
+        <path class="river" d="M20 120 C60 128 100 134 140 162 C180 190 230 196 280 198 C330 200 365 198 398 190"/>
+        <path class="river" d="M150 110 C200 120 240 140 275 165 C300 180 330 188 355 192"/>
+        <circle cx="298" cy="178" r="3" fill="var(--ink-2)"/>
+        <text x="292" y="182" text-anchor="end">Grand Island</text>
+        <circle cx="362" cy="184" r="3" fill="var(--ink-2)"/>
+        <text x="342" y="205" class="faint">Lincoln</text>
+        <circle cx="390" cy="172" r="3" fill="var(--ink-2)"/>
+        <text x="352" y="167" class="faint">Omaha</text>
+        <circle class="pin-ring" cx="292" cy="112" r="14"/>
+        <circle class="pin" cx="292" cy="112" r="5"/>
+        <text x="306" y="105" class="city">Bartlett</text>
+        <text x="306" y="119">Wheeler County</text>
+        <text x="100" y="105" class="faint">SANDHILLS</text>
+        <text x="20" y="245" class="faint">Nebraska &middot; Herd Co. is about 90 minutes north of Grand Island.</text>
+      </svg>
+    </div>
+  </section>
 
   <section id="values">
     <div class="wrap">
@@ -93,7 +100,7 @@
       </div>
       <ul class="values">
         <li><h3>Cattle first</h3><p>Bunks fed on time, sick cattle pulled early, pens kept dry. The animals come before the paperwork.</p></li>
-        <li><h3>Learn the whole yard</h3><p>Interns and new hires rotate through pens, mill, health, and office so they understand how each piece affects a close-out.</p></li>
+        <li><h3>Learn the whole yard</h3><p>New hires learn how the pens, the mill, animal health, and the office each affect a close-out, whatever seat they sit in.</p></li>
         <li><h3>Straight dealing</h3><p>Customers get honest close-outs and returned calls. Employees get clear expectations and a boss who shows up.</p></li>
       </ul>
     </div>
@@ -104,11 +111,11 @@
       <div class="section-head">
         <div>
           <span class="eyebrow">Careers</span>
-          <h2>Start in the pens. Go anywhere in ag.</h2>
+          <h2>Now hiring: Accountant / Controller.</h2>
         </div>
         <div>
-          <p>We recruit students and recent graduates in animal science, agronomy, ag business, and accounting through Handshake, and we hire experienced feedyard hands year-round. Internships run through the summer with housing help available.</p>
-          <p style="margin-top:1.2rem"><a class="btn" href="careers.html">View openings and how to apply</a></p>
+          <p>A full-time, in-office accounting role in Bartlett supporting the feedyard and affiliated entities, reporting to the CFO. Every Herd Co. opening is posted on Handshake, and Handshake is the only place we accept applications.</p>
+          <p style="margin-top:1.2rem"><a class="btn" href="careers.html">View the opening</a></p>
         </div>
       </div>
     </div>
@@ -136,9 +143,9 @@
     <div>
       <h3>Recruiting</h3>
       <ul>
-        <li><a href="https://joinhandshake.com" rel="noopener">Find us on Handshake</a></li>
-        <li><a href="careers.html#apply">How to apply</a></li>
+        <li><a href="https://joinhandshake.com" rel="noopener">Apply on Handshake</a></li>
       </ul>
+      <p style="font-size:0.85rem;color:var(--muted);margin-top:0.6rem">Applications are accepted only through Handshake.</p>
     </div>
     <div class="legal">
       <span>&copy; 2026 Herd Co., Inc. All rights reserved.</span>
