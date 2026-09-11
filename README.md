@@ -20,7 +20,7 @@ from the logo: near-black brown `#221E19`, tan `#B29E88`, warm grey `#C0B5A5`, w
 
 ## Apply buttons
 
-The Apply buttons on the careers page link to Handshake. Replace `https://joinhandshake.com` in `careers.html`
+The Apply buttons on the careers page link to Handshake. Replace `https://app.joinhandshake.com/public/jobs/11414222` in `careers.html`
 with the actual Handshake posting URL. Keep Handshake mentions light on the page; the site does not claim it is
 the only way to apply.
 
