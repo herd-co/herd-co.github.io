@@ -18,10 +18,11 @@ employer website on Handshake.
 background). The `-800` files are smaller copies used in the page header. The site palette in `style.css` comes
 from the logo: near-black brown `#221E19`, tan `#B29E88`, warm grey `#C0B5A5`, white.
 
-## Applications go through Handshake only
+## Apply buttons
 
-Every Apply button and recruiting link points at Handshake. Replace `https://joinhandshake.com` in both HTML
-files with the actual Handshake posting or employer-profile URL. Do not add email or phone application options.
+The Apply buttons on the careers page link to Handshake. Replace `https://joinhandshake.com` in `careers.html`
+with the actual Handshake posting URL. Keep Handshake mentions light on the page; the site does not claim it is
+the only way to apply.
 
 ## Editing job listings
 
